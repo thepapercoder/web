@@ -1,0 +1,1 @@
+<h1>about controller - index action - index view</h1>

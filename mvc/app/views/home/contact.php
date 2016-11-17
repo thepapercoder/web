@@ -1,0 +1,1 @@
+<h1>home controller - action contact - view contact</h1>
