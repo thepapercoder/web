@@ -1,0 +1,62 @@
+/*
+ * Copyright (c) 2016. Son Nguyen Giang
+ */
+
+/*login page*/
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    color: white !important;
+    border-radius: 0;
+}
+
+button:hover {
+    background-color: #409844;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 50%;
+    /*border-radius: 50%;*/
+    margin: 30px auto;
+}
+
+/*title*/
+.title {
+    text-align: center;
+}
+
+.title > h2 {
+    font-family: Arial;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px 0;
+    background-color: rgba(127, 184, 92, 0.19);
+    margin-bottom: 20px;
+}
+
+body {
+    margin-bottom: 30px !important;
+}

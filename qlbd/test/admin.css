@@ -1,0 +1,88 @@
+ * {
+     padding: 0;
+     margin: 0;
+ }
+ /* The side navigation menu */
+ 
+ .sidenav {
+     height: 100%;
+     /* 100% Full-height */
+     width: 250px;
+     /* 0 width - change this with JavaScript */
+     position: fixed;
+     /* Stay in place */
+     z-index: 1;
+     /* Stay on top */
+     top: 0;
+     left: 0;
+     background-color: #111;
+     /* Black*/
+     overflow-x: hidden;
+     /* Disable horizontal scroll */
+     padding-top: 15px;
+     /* Place content 60px from the top */
+ }
+ /* The navigation menu links */
+ 
+ .sidenav a {
+     padding: 8px 8px 8px 32px;
+     text-decoration: none;
+     font-size: 20px;
+     color: #818181;
+     display: block;
+     transition: 0.3s
+ }
+ 
+ .sidenav .welcomeSidenav {
+     padding: 8px 8px 8px 32px;
+     font-size: 20px;
+     color: #818181;
+     display: block;
+ }
+ /* When you mouse over the navigation links, change their color */
+ 
+ .sidenav a:hover,
+ .offcanvas a:focus {
+     color: #f1f1f1;
+ }
+ 
+ .main {
+     margin-left: 250px;
+     padding-top: 20px;
+ }
+ /*admin page*/
+ 
+ .overview .box {
+     width: 25% !important;
+     margin-left: 2%;
+     height: 150px;
+     color: #fcf8e3;
+ }
+ 
+ .overview .box>h3 {
+     height: 150px;
+     line-height: 150px;
+     padding: 0 !important;
+     margin: 0;
+ }
+ 
+ .overview div.panel-body span {
+     padding-left: 20px;
+     font-size: 2em;
+     font-weight: bold;
+ }
+ 
+ .overview div.panel-body>div:nth-child(1) {
+     background-color: #5cb85c;
+     border: 1px solid #8fd872;
+ }
+ 
+ .overview div.panel-body>div:nth-child(2) {
+     background-color: #5bc0de;
+     border: 1px solid #7bc8ef;
+ }
+ 
+ .overview div.panel-body>div:nth-child(3) {
+     background-color: #d9534f;
+     border: 1px solid #f18c8c;
+ }
